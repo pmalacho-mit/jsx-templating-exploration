@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "dsl": ["./dsl"],
+      "dsl/*": ["./dsl/*"]
+    },
+    "jsxImportSource": "dsl",
+    "types": [],
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["./src", "./dsl"]
+}
