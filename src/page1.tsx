@@ -8,8 +8,12 @@ const Arabic = ({ children }: { children: Children }) => (
 
 const CalebSpeakingScene = ({ children }: { children: Children }) => (
   <Scene
+    defaultLanguage="us"
     languages={["us", "uk", "arabic"] as const}
-    generate={async ({ language }, ...tokens) => {
+    translate={async ({ language }, ...tokens => {
+     return ... 
+    }}
+    tts={async ({ language }, ...tokens) => {
       switch (language) {
         case "us":
           return [{ text: "", startMs: -1, durationMs: -1 }];
