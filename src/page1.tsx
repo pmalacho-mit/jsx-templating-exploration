@@ -8,7 +8,7 @@ const Arabic = ({ children }: { children: Children }) => (
 
 const CalebSpeakingScene = ({ children }: { children: Children }) => (
   <Scene
-    defaultLanguage="us"
+    authoringLanguage="us"
     languages={["us", "uk", "arabic"] as const}
     translate={async ({ language }, ...tokens => {
      return ... 
