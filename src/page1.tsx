@@ -35,9 +35,6 @@ export default () => {
         <Speaker src="speaker1.png" />
         Hello, this is some <strong>text in the scene.</strong>
         <Popup src="popup1.png">This is a popup during the text.</Popup>
-        <Arabic>
-          مرحبًا، هذا بعض <strong>النص في المشهد.</strong>
-        </Arabic>
       </CalebSpeakingScene>
     </Page>
   );
